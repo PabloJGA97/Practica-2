@@ -1,0 +1,28 @@
+h1 {
+    color:rgb(68, 0, 255);
+    text-align:center;
+    font-weight:bold;
+    /* 
+        <h1> ja centra i posa el text en negreta per defecte, però per demandes de l'enunciat ho explicitem al codi ja 
+        que no afecta en res al resultat.
+     */
+}
+caption {
+    color:blueviolet;
+    border:0px none;
+}
+th {
+    background-color: rgb(250, 196, 19);
+    text-align: center;
+    font-weight: bold;
+    /*
+        Igual que <h1>, l'etiqueta de <th> per defecte ja centra i posa el text en negreta. No obstant,
+        posem les propietats corresponents per petició de l'enunciat de l'exercici.
+    */
+}
+table, td, tr, th {
+    border: 1px solid black;
+    /* fer "border 1px solid black" és més resumit i fàcil que fer "border-color" i "border-style" en dues línies adicionals */
+    border-collapse: collapse;
+    /* el valor de propietat 'collapse' és important per evitar vores dobles.*/
+    }

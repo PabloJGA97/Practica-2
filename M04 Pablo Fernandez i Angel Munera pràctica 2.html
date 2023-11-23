@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notícies ITIC</title>
+        <style>
+        /* 
+            Per fer un comentari multilínia dins d'<style>, s'ha d'utlitzar /* que és l'equivalent del 
+            <-! però en CSS. En aquest cas, volem comunicar que aquí es troba el primer CSS internal de l'
+            exercici
+         */
+            h2 {
+                background-color: rgba(250, 46, 10, 0.87);
+            }
+        /* 
+            El color rgba es diferencia del rgb en què es pot escollir la transparència del color amb el quart valor
+            de propietat de la llista de propietat
+         */    
+            
+        </style>
+        
+    </head>
+    <body>
+        <h1>NOTÍCIES: Institut de les Tecnologies i Comunicacions de Barcelona</h1>
+        <p><a href="taules.html">ANUNCIS</a></p>
+        <!-- sota d'aquí introduirem l'únic CSS inline de l'activitat -->
+        <h1 style="color:blue;text-align:center;">El ‘mur de la vergonya’ del Perú que separa pobres de rics</h1>
+        
+            color és una propietat d'style i el que va després dels dos punts són valors de propietats, Les propietats
+            se separen entre elles amb punt i coma (;) i és important que es tanquin amb (;) i tancar tot l'style 
+            amb cometes dobles ("") 
+        
+        <p>L’arribada de Donald Trump a la Casa Blanca amb la gran promesa d’aixecar un mur més blidant del que ja hi ha entre Mèxic i els Estats Units ha servit als peruans per mirar cap a casa. En concret, cap a Lima, la capital del país. El conegut com a mur de la vergonya fa anys que existeix en aquesta ciutat de l’Amèrica Llatina. Separa un barri ric i benestant d’un de pobre i marginal. Popularment l’anomenen així perquè és l’estampa de la divisió de classes socials al país, però feia temps que ningú ja no en parlava al Perú</p>
+        <h2>Una paret de 10 quilòmetres divideix dos barris de Lima</h2>
+        <p>El mur fa deu quilòmetres de llarg per tres d’alçada. Està fet de pur formigó, de color gris. Ciment que recorre la cadena muntanyosa de San Francisco, una de les baixes serralades que envolten la ciutat de Lima, al sud-est de la ciutat. Coronen el mur filferros amb punxes per evitar que ningú pugui saltar-lo</p>
+        <p>Molts dels habitants del barri Nadine Heredia, irònicament, treballen a l’altra banda del mur de la vergonya, on hi ha la Lima dels rics, amb cases que poden arribar a costar dos milions de dòlars (1,7 milions d’euros). Aquí hi predomina el color verd dels grans jardins de la urbanització Las Casuarinas.</p>
+        <h2>Crit d’auxili</h2>
+        <p>L’aigua, el clavegueram i l’electricitat mai han arribat a aquesta zona de Lima coneguda com a barri de Vista Hermosa. El nom fa referència a unes vistes que ja no existeixen. Fa poc, una part de les faveles es van batejar com a barri Nadine Heredia, el nom de l’ex primera dama del Perú, dona de l’expresident Ollanta Humala. Molts dels habitants del barri Nadine Heredia, irònicament, treballen a l’altra banda del mur de la vergonya, on hi ha la Lima dels rics, amb cases que poden arribar a costar dos milions de dòlars (1,7 milions d’euros). Aquí hi predomina el color verd dels grans jardins de la urbanització Las Casuarinas.</p>
+        <h2>Origen desconegut</h2>
+        <p>Ningú del barri de faveles de Vista Hermosa sap del cert qui va aixecar aquest mur fa 10 anys. Però tothom dona per fet que qui ho va pagar va ser la comunitat de propietaris de la urbanització Las Casuarinas, el barri dels rics, amb la complicitat de l’Ajuntament de Lima. Elke McDonald hi resideix i en molts dels articles i reportatges que últimament s’han escrit sobre el mur de la vergonya de Lima ha aportat pistes sobre el tema, i ha justificat, a més a més, la necessitat de separar els rics dels pobres. “Tothom té dret a tot el món a posar límits a la propietat privada per protegir-la. Això no vol dir que no siguem bons veïns. La meva dona de fer feines i el meu jardiner viuen allà [a Vista Hermosa]”, ha explicat McDonald sempre que se li han demanat explicacions. Algunes vegades els veïns de la part pobra han intentat bloquejar l’ampliació del mur, però no han tingut èxit. Viuen sota el paraigua de la resignació. Han tirat la tovallola.</p>
+        <img src="https://ichef.bbci.co.uk/news/624/amz/worldservice/live/assets/images/2015/10/19/151019143053_muro_peru_lima_pobres_624x460_bbc_nocredit.jpg" alt="Imagen panorámica del muro que separa los barrios de clase baja y alta.">
+        <h2>Fonts</h2>
+        <ol>
+            <li><a href="https://www.ara.cat/internacional/vergonya-peru-separa-pobres-rics_1_1338998.html">Ara.cat</a></li>
+            <li><a href="https://www.naciodigital.cat/opinio/18944/murs-vergonya">Naciodigital.cat</a></li>
+            <li><a href="https://grupeirene.org/exposicio-els-murs-de-la-vergonya-destruim-barreres-construim-pau/">Grupeirene.org</a></a></li>
+        </ol>
+        <h2>Altres notícies d'interés</h2>
+        <ul>
+            <li>Lima, la ciutat d’Amèrica Llatina on els pobres paguen deu vegades més per l’aigua</li>
+            <li>El termòmetre de la sequera a Catalunya: així anem de pluja i nivell dels embassaments</li>
+            <li>Els càlculs estratègics de la Xina a Ucraïna: la tardor decisiva</li>
+        </ul>
+    </body>
+</html>
+
+<!-- 
+    posició static (vol dir que no es mourà que ve per defecte) podrà ser modificada per margin 
+    i top. 
+
+    diferència entre relative i absolut 
+
+    position=relative manté el seu lloc i l'espai que té aquest lloc. 
+    position=absolut absolut canvia la forma de l'element, com fer-lo petit, fa que l'element de
+    sota puji ja que aquest no sap interpretar l'espai de l'element d'adalt ja que aquest es queda
+    "com flotant"
+    top 10px baixa l'element d'adalt 10 pc. L'espai en blanc que queda no és un margin si no l'espai
+    reservat originalment per l'element 
+    top 40px es mostra més blanc 
+    left 10px (top, left no son marges sino *posicions*)
+
+    absolut no reserva espai
+    relatiu reserva espai i el mnaté
+
+    fixed es el mateix que l'absolut 
+
+    sticky manté la posició sempre en la pantalla >-- dubte Hanna 
+    el manté com un relative i quan fas scroll el converteix en fixed
+
+-->

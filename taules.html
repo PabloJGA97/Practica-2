@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anuncis videojocs</title>
+        <!-- 
+            No és necessari posar una ruta absoluta al href per enllaçar a un document local
+            ja que a cada ordinador segons el seu SO i disc dur la ruta serà diferent. Per tant
+            només amb posar exactament el nom de l'arxiu i la seva extensión i adjuntar-ho en la 
+            mateixa carpeta que l'arxiu html pare serà suficient perquè funcioni l'enllaç
+         -->
+        <link rel="stylesheet" href="styles.css">  
+        <!-- Aquí veiem aplicat un CSS External per modificar l'estil de les etiquetes del body -->
+    </head>
+    <body>
+        <h1>Espai publicitari</h1>
+        <table>
+            <!-- 
+                El <caption> sempre dins de <table> amb denting. En cas contrari, no se centrarà i semblarà
+                un heading més.
+            -->
+            <caption>Pròxims llançaments de videojocs per al 2023</caption>
+            <tr>
+                <!-- 
+                    <th> etiqueta per les capçeleres de taula. També podríem fer-les servir per 
+                    separar els elements dels continguts de les cel·les, però es posarien en 
+                    negreta i confondriem variables amb valors de taula. No recomenable. 
+                -->
+                <th>Joc</th>
+                <th>Llançament</th>
+                <th>Plataforma</th>
+            </tr>
+            <tr>
+                <td>Sonic Superstars (Switch)</td>
+                <td>17/10/2023</td>
+                <td>Switch</td>
+            </tr>
+            <tr>
+                <td>Super Mario: Wonder</td>
+                <td>20/10/2023</td>
+                <td>Switch</td>
+            </tr>
+            <tr>
+                <td>Metal Gear Solid: Master Collection Vol. 1 </td>
+                <td>14/10/2023</td>
+                <td>Switch</td>
+            </tr>
+        </table>
+    </body>
+</html>
